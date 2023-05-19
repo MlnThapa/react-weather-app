@@ -1,6 +1,82 @@
-.App {
-  text-align: center;
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  color:#fff;
 }
+.Container{
+  height:100vh;
+  width:100vw;
+  background-image:linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.weather{
+  height:400px;
+  width:300px;
+}
+.Search{
+  width:100%;
+  background: #000;
+  height:35px;
+}
+.Search form{
+  height:100%;
+  width:100%;
+  display: flex;
+}
+
+.Search input{
+  height:100%;
+  width:80%;
+  color:#000;
+  font-size: 1.2em;
+  border-radius: 5px 0px 0px 5px;
+  border:none;
+}
+.Search button{
+  height:100%;
+  width:20%;
+  border:none;
+  border-radius: 0px 5px 5px 0px;
+}
+.Search button p{
+  color:#000;
+}
+.country-details{
+  height:80px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  letter-spacing: 1px;
+  font-size: 1.2em;
+}
+
+.temp-details{
+  height:150px;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+.weather-main{
+  font-size: 0.5em;
+  margin:30px 0 0 10px;
+}
+
+.min-max{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.min-max span{
+  margin:10px;
+}
+
 
 
 

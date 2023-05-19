@@ -15,12 +15,11 @@ function App() {
     }
     fetchApi()
   },[name])
-  console.log(data)
   return (
     <div className='Container'>
       <div className='weather'>
         <Search/>
-        <Details/>
+        {!data.name?<p style={{"margin-top":"20px","letter-spacing":"1px"}}>Please enter a valid city name</p>:<Details {...data}/>}
       </div>
     </div>
   );
