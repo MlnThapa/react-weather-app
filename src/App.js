@@ -15,7 +15,6 @@ function App() {
     }
     fetchApi()
   },[name])
-console.log(data)
   return (
     <div className='Container'>
       <div className='weather'>

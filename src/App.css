@@ -20,6 +20,10 @@
   width:100%;
   background: #000;
   height:35px;
+}
+.Search form{
+  height:100%;
+  width:100%;
   display: flex;
 }
 
