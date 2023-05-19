@@ -19,7 +19,7 @@ function App() {
     <div className='Container'>
       <div className='weather'>
         <Search/>
-        {!data.name?<p>Please enter a valid city name</p>:<Details {...data}/>}
+        {!data.name?<p style={{"margin-top":"20px","letter-spacing":"1px"}}>Please enter a valid city name</p>:<Details {...data}/>}
       </div>
     </div>
   );
