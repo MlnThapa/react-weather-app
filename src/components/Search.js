@@ -8,7 +8,7 @@ const Search = () => {
   return (
     <div className='Search'>
         <input type="text" value={cityName} onChange={(e)=> setCityName(e.target.value)}/>
-        <button onClick={()=>dispatch(addName(cityName))}></button>
+        <button onClick={()=>dispatch(addName(cityName))}><p>Search</p></button>
     </div>
   )
 }
